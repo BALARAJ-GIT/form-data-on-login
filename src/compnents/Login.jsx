@@ -13,7 +13,7 @@ const Login = ({setToggle}) => {
       <p className='p-4'>
         didnt have a account? <span
         onClick={()=>{setToggle(prev =>!prev)}}
-         className='text-blue-300'> register here</span>
+         className='text-blue-400'> register here</span>
       </p>
     </div>
   )
